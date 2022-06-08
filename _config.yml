@@ -1,0 +1,36 @@
+title: The Artemis Gambit
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+        A wiki and brainstorming site for working on a cardgame!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+# theme: minima
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-feed
+  - jemoji
+
+enable_search: true             
+
+# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
+# markup / liquid-based content.
+footer_content: "Copyright &copy; 2017-2020 xxx. Follow us on <a href=\"www.google.com\">Twitter.<\a>"
+
+gh_edit_link: true
+gh_edit_link_text: "Don't hesitate to contribute ideas and suggestions via pull requests!"
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
